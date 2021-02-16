@@ -2,7 +2,7 @@ import express = require("express")
 import axios, { AxiosRequestConfig } from "axios"
 import config from "../snippets/config"
 
-let user= {
+let user = {
     username: 'none',
     avatar: 'none',
     id: 0,
@@ -42,7 +42,7 @@ function oauth(req: express.Request, res: express.Response) {
         // user is now aviliable
         res.json(user)
         // write to database
-    }).catch((reason)=>{
+    }).catch((reason) => {
         // Should have error message
         res.send("LoginError")
     })
