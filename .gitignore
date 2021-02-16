@@ -1,0 +1,8 @@
+# Files
+config.json
+
+# Directories
+dist/
+node_modules/
+public/
+comments/
