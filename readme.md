@@ -21,5 +21,5 @@ npm install --production
 ```
 Once installed, run:
 ```
-npm run debug
+npm run start
 ```
